@@ -27,6 +27,6 @@ jobs:
     - name: Start CoreServer.exe in the background
       shell: cmd
       run: |
-          Start-Process -NoNewWindow powershell { .\Debug\CoreServer.exe -c -s } &
+          Start-Process -NoNewWindow powershell { .\Debug\CoreServer.exe -c -s } 
           sleep 4
           netstat -ntp
