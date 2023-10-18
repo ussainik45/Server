@@ -1,0 +1,31 @@
+name: Test unit tests CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  
+jobs:
+  build:
+
+    runs-on: windows-2022
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: setup Msbuild
+      uses: microsoft/setup-msbuild@v1.3.1
+      
+
+#try nc -v -N 127.0.0.1 3334
+ #curl http://localhost:3333 -I
+ #vstest.console.exe ./Pico/Medman/FluidTransferTests/bin/Release/net481/FluidTransferTests.dll
+#Start CoreServer.exe in background
+    
+    - name: Start CoreServer.exe in the background
+      run: |
+         ./Debug/CoreServer.exe -c -s &
+         sleep 2
+         netstat -ntp
