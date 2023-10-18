@@ -25,7 +25,8 @@ jobs:
 #Start CoreServer.exe in background
     
     - name: Start CoreServer.exe in the background
+      shell: cmd
       run: |
          ./Debug/CoreServer.exe -c -s &
-         sleep 2
+         sleep 4
          netstat -ntp
