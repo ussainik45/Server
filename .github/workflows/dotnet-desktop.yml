@@ -1,4 +1,4 @@
-ame: Test unit tests CI
+name: Test unit tests CI
 
 on:
   push:
