@@ -27,8 +27,6 @@ jobs:
     - name: Start CoreServer.exe in the background
       shell: cmd
       run: |
-          set RUNNER_TRACKING_ID=""
-          .\Debug\CoreServer.exe -c -s &
-
-    - name: Test connection
-      run: netstat -ntp
+          Start-Process -NoNewWindow powershell { .\Debug\CoreServer.exe -c -s } &
+          sleep 4
+          netstat -ntp
