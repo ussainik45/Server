@@ -26,8 +26,7 @@ jobs:
 
     - name: Start CoreServer.exe in the background
       shell: cmd
-      run: .\Debug\CoreServer.exe -ArgumentList -c -s &
-            Sleep 4
-
-    - name: See Connections
-      run: netstat -ntp
+      run: |
+        .\Debug\CoreServer.exe -c -s &
+        sleep 3
+        netstat -ntp
