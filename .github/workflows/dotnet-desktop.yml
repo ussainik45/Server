@@ -28,5 +28,9 @@ jobs:
       shell: cmd
       run: |
          ./Debug/CoreServer.exe -c -s &
-         sleep 4
-         netstat -ntp
+
+    - name: Wait 5 seconds
+      run: sleep 5
+
+    - name: See status
+      run: netstat -ntp
