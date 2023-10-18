@@ -25,6 +25,8 @@ jobs:
 #Start CoreServer.exe in background
 
     - name: Start CoreServer.exe in the background
-      run:  Start-Process -FilePath .\Debug\CoreServer.exe -ArgumentList "-c", "-s" &
+      run: Start-Process -FilePath .\Debug\CoreServer.exe -ArgumentList "-c", "-s" &
             Sleep 4
-            netstat -ntp
+
+    - name: See Connections
+      run: netstat -ntp
