@@ -26,8 +26,7 @@ jobs:
     
     - name: Start CoreServer.exe in the background
       shell: cmd
-      run: |
-         Debug/CoreServer.exe -c -s &
+      run: ./Debug/CoreServer.exe -c -s &
 
     - name: Wait 5 seconds
       run: sleep 5
