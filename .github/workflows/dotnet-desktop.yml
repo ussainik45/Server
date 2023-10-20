@@ -34,4 +34,4 @@ jobs:
       shell: cmd
       run: |
          start /B "echo git | .\Debug\CoreServer.exe -c -s"
-         
+         ./Pico/Medman/FluidTransferTests/bin/Release/net481/FluidTransferTests.dll
