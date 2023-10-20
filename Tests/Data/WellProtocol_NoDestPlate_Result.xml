@@ -1,0 +1,36 @@
+<transfer style="startstop" date="2023-08-24 21:03:14" serial_number="Echo-0000" vtl="1" frmt="1">
+     <plateinfo>
+          <plate type="source" name="384PP_DMSO2" />
+          <plate type="destination" name="384PP_Dest" />
+     </plateinfo>
+     <destplateoffset offsetX="0" offsetY="0" />
+     <printmap total="12">
+          <w n="C12" r="2" c="11" dn="C9" dr="2" dc="8" dx="0" dy="0" t="05:03:09.954" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="D12" r="3" c="11" dn="D9" dr="3" dc="8" dx="0" dy="0" t="05:03:10.359" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="E12" r="4" c="11" dn="E9" dr="4" dc="8" dx="0" dy="0" t="05:03:10.693" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="F12" r="5" c="11" dn="F9" dr="5" dc="8" dx="0" dy="0" t="05:03:11.030" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="G12" r="6" c="11" dn="G9" dr="6" dc="8" dx="0" dy="0" t="05:03:11.375" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="H12" r="7" c="11" dn="H9" dr="7" dc="8" dx="0" dy="0" t="05:03:11.727" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="I12" r="8" c="11" dn="I9" dr="8" dc="8" dx="0" dy="0" t="05:03:12.061" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="J12" r="9" c="11" dn="J9" dr="9" dc="8" dx="0" dy="0" t="05:03:12.404" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="K12" r="10" c="11" dn="K9" dr="10" dc="8" dx="0" dy="0" t="05:03:12.740" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="L12" r="11" c="11" dn="L9" dr="11" dc="8" dx="0" dy="0" t="05:03:13.083" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="M12" r="12" c="11" dn="M9" dr="12" dc="8" dx="0" dy="0" t="05:03:13.423" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+          <w n="N12" r="13" c="11" dn="N9" dr="13" dc="8" dx="0" dy="0" t="05:03:13.765" gx="46836.632" gy="71277.076" tz="0" memt="0.855" fld="DMSO2" fc="70.487" ft="0" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" reason="Signature type is DPA, but DPA is not enabled for calibration 384PPL_DMSO2_2.5" region="-1" />
+     </printmap>
+     <skippedwells total="0" />
+     <platemap>
+          <fluidcompositionmethod v="PlateSignature" />
+          <fluidcompositionmin v="30.392" />
+          <fluidcompositionmax v="39.814" />
+          <fluidcompositionave v="33.53" />
+          <composition rows="0" cols="0" />
+          <fcthickness rows="0" cols="0" />
+          <memthickness rows="0" cols="0" />
+          <measbottof />
+     </platemap>
+     <amplifierparameter>
+          <sysgain v="1" />
+          <ampfeedback v="1.009" />
+     </amplifierparameter>
+</transfer>

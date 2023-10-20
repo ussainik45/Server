@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<transfer style="startstop" date="2023-03-13 17:21:32.000" serial_number="E6XX-STUB" vtl="0" frmt="1" expbottof="29.934">
+     <plateInfo>
+          <plate type="source" name="384PP_AQ_BP2" barcode="UnknownBarCode" />
+          <plate type="destination" name="384PP_Dest" barcode="UnknownBarCode" />
+     </plateInfo>
+     <printmap total="2">
+          <w n="A1" r="0" c="0" dn="A1" dr="0" dc="0" t="17:21:32.259" cvl="9.356" vl="28.993" vt="250" avt="250" gx="46836.632" gy="71277.076" tz="4199.039" oid="2147483646" tag="" dx="0" dy="0" fld="Glycerol" fldu="Percent" wc="" sid="" memt="0.855" fc="30.392" ft="2.283" ct="0.803" sv="1648.611" tof="32.464" eo="100" aa="1.97" cf="12.52" reason="" />
+          <w n="A1" r="0" c="0" dn="A2" dr="0" dc="1" t="17:21:32.578" cvl="9.349" vl="28.993" vt="7.5" avt="7.5" gx="46836.632" gy="71277.076" tz="4175.404" oid="2147483646" tag="" dx="0" dy="0" fld="Glycerol" fldu="Percent" wc="" sid="" memt="0.855" fc="30.392" ft="2.283" ct="0.802" sv="1648.611" tof="32.47" eo="100" aa="1.97" cf="12.52" reason="" />
+     </printmap>
+     <skippedwells total="0" />
+     <platemap>
+          <fluidcompositionmethod v="PlateSignature" />
+          <fluidcompositionmin v="30.392" />
+          <fluidcompositionmax v="39.814" />
+          <fluidcompositionave v="33.53" />
+          <composition rows="2" cols="2">
+               <w n="A1" r="0" c="0" com="30.392" />
+               <w n="A2" r="0" c="1" com="31.984" />
+               <w n="B1" r="1" c="0" com="39.814" />
+               <w n="B2" r="1" c="1" com="32.072" />
+          </composition>
+          <fcthickness rows="2" cols="2">
+               <w n="A1" r="0" c="0" ft="2.283" />
+               <w n="A2" r="0" c="1" ft="2.492" />
+               <w n="B1" r="1" c="0" ft="2.687" />
+               <w n="B2" r="1" c="1" ft="2.395" />
+          </fcthickness>
+          <memthickness rows="2" cols="2">
+               <w n="A1" r="0" c="0" mt="0.855" />
+               <w n="A2" r="0" c="1" mt="0.855" />
+               <w n="B1" r="1" c="0" mt="0.855" />
+               <w n="B2" r="1" c="1" mt="0.855" />
+          </memthickness>
+          <measbottof>
+               <w n="A1" r="0" c="0" mbtof="31.134" />
+               <w n="A2" r="0" c="1" mbtof="31.134" />
+               <w n="B1" r="1" c="0" mbtof="31.134" />
+               <w n="B2" r="1" c="1" mbtof="31.134" />
+          </measbottof>
+     </platemap>
+     <amplifierparameter>
+          <sysgain v="1" />
+          <ampfeedback v="1.009" />
+     </amplifierparameter>
+</transfer>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocol xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TransferMapElements>
+    <NTransferMapElement>
+      <DestColCount>9</DestColCount>
+      <DestColOffset>0</DestColOffset>
+      <DestRowCount>5</DestRowCount>
+      <DestRowOffset>0</DestRowOffset>
+      <DestStartCol>2</DestStartCol>
+      <DestStartRow>1</DestStartRow>
+      <DestMultiplier>1</DestMultiplier>
+      <SrcColCount>9</SrcColCount>
+      <SrcColOffset>0</SrcColOffset>
+      <SrcMultiplier>2</SrcMultiplier>
+      <SrcRowCount>5</SrcRowCount>
+      <SrcRowOffset>1</SrcRowOffset>
+      <SrcStartCol>2</SrcStartCol>
+      <SrcStartRow>1</SrcStartRow>
+      <TransferVolume>2.5</TransferVolume>
+    </NTransferMapElement>
+  </TransferMapElements>
+  <ProtocolName>Interleave_3rd2**VL</ProtocolName>
+  <NextProtocol>Interleave_3rd3**VL</NextProtocol>
+  <SrcPlateName>384PP_AQ_GP3</SrcPlateName>
+  <DestPlateName>96_Dest</DestPlateName>
+  <NumCopies>1</NumCopies>
+</Protocol>

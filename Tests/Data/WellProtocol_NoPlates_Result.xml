@@ -1,0 +1,34 @@
+<transfer style="startstop" date="2023-08-24 00:30:01" serial_number="Echo-0000" vtl="1" frmt="1">
+     <plateinfo>
+          <plate type="source" name="384PP_AQ" />
+          <plate type="destination" name="384PP_Dest" />
+     </plateinfo>
+     <destplateoffset offsetX="0" offsetY="0" />
+     <printmap total="10">
+          <w n="A1" r="0" c="0" dn="A1" dr="0" dc="0" dx="0" dy="0" t="05:29:54.713" gx="46836.632" gy="71277.076" tz="2.662" memt="0.855" fld="AQ" fc="70.487" ft="2.271" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+          <w n="A2" r="0" c="1" dn="A2" dr="0" dc="1" dx="0" dy="0" t="05:29:55.491" gx="46836.632" gy="71277.076" tz="3.415" memt="0.855" fld="AQ" fc="70.487" ft="2.992" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+          <w n="A3" r="0" c="2" dn="A3" dr="0" dc="2" dx="0" dy="0" t="05:29:56.160" gx="46836.632" gy="71277.076" tz="1.963" memt="0.855" fld="AQ" fc="70.487" ft="1.572" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+          <w n="A4" r="0" c="3" dn="A4" dr="0" dc="3" dx="0" dy="0" t="05:29:56.846" gx="46836.632" gy="71277.076" tz="1.633" memt="0.855" fld="AQ" fc="70.487" ft="1.226" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+          <w n="A5" r="0" c="4" dn="A5" dr="0" dc="4" dx="0" dy="0" t="05:29:57.542" gx="46836.632" gy="71277.076" tz="3.659" memt="0.855" fld="AQ" fc="70.487" ft="3.231" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+          <w n="C1" r="2" c="0" dn="D1" dr="3" dc="0" dx="0" dy="0" t="05:29:58.260" gx="46836.632" gy="71277.076" tz="3.43" memt="0.855" fld="AQ" fc="70.487" ft="3.002" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+          <w n="C2" r="2" c="1" dn="D2" dr="3" dc="1" dx="0" dy="0" t="05:29:58.959" gx="46836.632" gy="71277.076" tz="1.067" memt="0.855" fld="AQ" fc="70.487" ft="0.678" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+          <w n="C3" r="2" c="2" dn="D3" dr="3" dc="2" dx="0" dy="0" t="05:29:59.679" gx="46836.632" gy="71277.076" tz="1.927" memt="0.855" fld="AQ" fc="70.487" ft="1.537" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+          <w n="C4" r="2" c="3" dn="D4" dr="3" dc="3" dx="0" dy="0" t="05:30:00.359" gx="46836.632" gy="71277.076" tz="1.014" memt="0.855" fld="AQ" fc="70.487" ft="0.613" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+          <w n="C5" r="2" c="4" dn="D5" dr="3" dc="4" dx="0" dy="0" t="05:30:01.058" gx="46836.632" gy="71277.076" tz="1.391" memt="0.855" fld="AQ" fc="70.487" ft="0.972" vl="0" cvl="0" vt="0" avt="0" sv="1486.071" tof="32.464" eo="100" aa="0" cf="0" region="-1" />
+     </printmap>
+     <skippedwells total="0" />
+     <platemap>
+          <fluidcompositionmethod v="PlateSignature" />
+          <fluidcompositionmin v="30.392" />
+          <fluidcompositionmax v="39.814" />
+          <fluidcompositionave v="33.53" />
+          <composition rows="0" cols="0" />
+          <fcthickness rows="0" cols="0" />
+          <memthickness rows="0" cols="0" />
+          <measbottof />
+     </platemap>
+     <amplifierparameter>
+          <sysgain v="1" />
+          <ampfeedback v="1.009" />
+     </amplifierparameter>
+</transfer>

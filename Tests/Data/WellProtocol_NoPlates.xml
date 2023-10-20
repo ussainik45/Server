@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Protocol Name="protocol-name">
+	<Name/>
+	<Layout>
+		<wp v="5" dn="A1" n="A1"/>
+		<wp v="5" dn="A2" n="A2"/>
+		<wp v="5" dn="A3" n="A3"/>
+		<wp v="5" dn="A4" n="A4"/>
+		<wp v="5" dn="A5" n="A5"/>
+		<wp v="5" dn="D1" n="C1"/>
+		<wp v="5" dn="D2" n="C2"/>
+		<wp v="5" dn="D3" n="C3"/>
+		<wp v="5" dn="D4" n="C4"/>
+		<wp v="5" dn="D5" n="C5"/>
+	</Layout>
+</Protocol>

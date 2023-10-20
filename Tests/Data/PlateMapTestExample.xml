@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PlateMap p="384PP_AQ_CP">
+  <Wells>
+    <Well n="N19" r="13" c="18" wc="" sid=""/>
+    <Well n="B19" r="1" c="18" wc="" sid=""/>
+    <Well n="F4" r="5" c="3" wc="" sid=""/>
+    <Well n="E4" r="4" c="3" wc="" sid=""/>
+  </Wells>
+</PlateMap>

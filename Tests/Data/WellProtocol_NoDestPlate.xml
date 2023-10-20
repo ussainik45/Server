@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Protocol>
+	<Name/>
+	<SourcePlateName>384PP_DMSO2</SourcePlateName>
+	<Layout>
+		<wp tag="" dy="0" dx="0" dc="8" dr="2" dn="C9" c="11" r="2" n="C12" v="2.5" oid="1"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="3" dn="D9" c="11" r="3" n="D12" v="2.5" oid="2"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="4" dn="E9" c="11" r="4" n="E12" v="2.5" oid="3"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="5" dn="F9" c="11" r="5" n="F12" v="2.5" oid="4"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="6" dn="G9" c="11" r="6" n="G12" v="2.5" oid="5"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="7" dn="H9" c="11" r="7" n="H12" v="2.5" oid="6"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="8" dn="I9" c="11" r="8" n="I12" v="2.5" oid="7"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="9" dn="J9" c="11" r="9" n="J12" v="2.5" oid="8"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="10" dn="K9" c="11" r="10" n="K12" v="2.5" oid="9"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="11" dn="L9" c="11" r="11" n="L12" v="2.5" oid="10"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="12" dn="M9" c="11" r="12" n="M12" v="2.5" oid="11"/>
+		<wp tag="" dy="0" dx="0" dc="8" dr="13" dn="N9" c="11" r="13" n="N12" v="2.5" oid="12"/>
+	</Layout>
+</Protocol>

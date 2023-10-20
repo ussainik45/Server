@@ -1,0 +1,10 @@
+<platesurvey name="384PP_AQ" calibration="384PPL_AQ_2.5" barcode="UnknownBarCode" rows="5" cols="5" totalWells="25" serial_number="Echo-0000" date="2023-09-15 18:43:05" vtl="0" frmt="1" original="1">
+     <w r="1" c="3" n="B4" x="0" y="0" fld="AQ" fc="100" s="100" fsh="100" fsinh="100" t="2.259" fth="2.259" ftinh="2.259" vl="34.645" ct="2.259" cvl="34.645" b="0.559" o="0" a="NONE" status="" wc="" sid="">
+          <e t="AVG" z="2728.056">
+               <f t="FW BB" o="30.117" v="0.531" />
+               <f t="FW TB1" o="30.676" v="0.284" />
+               <f t="SR" o="33.72" v="1.651" />
+          </e>
+
+     
+</platesurvey>
