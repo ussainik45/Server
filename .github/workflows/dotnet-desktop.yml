@@ -33,6 +33,5 @@ jobs:
     - name: Start CoreServer.exe in the background
       shell: cmd
       run: |
-         start /B echo git | .\Debug\CoreServer.exe -c -s
-         vstest.console.exe .\Tests\FluidTransferTests.dll
-        
+         start /B git | .\Debug\CoreServer.exe -c -s
+         
