@@ -18,6 +18,9 @@ jobs:
     - name: setup Msbuild
       uses: microsoft/setup-msbuild@v1.3.1
 
+    - name: Setup VSTest Console
+      uses: darenm/Setup-VSTest@v1.2
+
 
 #try nc -v -N 127.0.0.1 3334
  #curl http://localhost:3333 -I
@@ -25,12 +28,7 @@ jobs:
 #Start CoreServer.exe in background
 
     - name: Start CoreServer.exe in the background
-      run: | 
-          set RUNNER_TRACKING_ID=""
-          Start-Process -NoNewWindow -FilePath ".\Debug\CoreServer.exe" -ArgumentList "-c","-s" &
-
-    - name: Wait
-      run: sleep 4
-
-    - name: Test Connection
-      run: netstat -ntp
+      shell: cmd
+      run: |
+         echo git | .\Debug\CoreServer.exe -c -s &
+         vstest.console.exe .\Tests\FluidTransferTests.dll
