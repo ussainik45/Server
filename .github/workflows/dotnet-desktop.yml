@@ -27,6 +27,9 @@ jobs:
  #vstest.console.exe ./Pico/Medman/FluidTransferTests/bin/Release/net481/FluidTransferTests.dll
 #Start CoreServer.exe in background
 
+    - name: Wait
+      run: sleep 5
+
     - name: Start CoreServer.exe in the background
       shell: cmd
       run: |
