@@ -34,12 +34,3 @@ jobs:
       run: |
           Start-Process .\Debug\CoreServer.exe -ArgumentList "-c -s" -NoNewWindow &
           vstest.console.exe ./Tests/FluidTransferTests.dll /Framework:framework481 /ResultsDirectory:./Tests /Logger:"trx"
-
-    - name: Publish Test Results
-      uses: EnricoMi/publish-unit-test-result-action/composite@v2
-      if: always()
-      with:
-         files: |
-            test-results/**/*.xml
-            test-results/**/*.trx
-            test-results/**/*.json
