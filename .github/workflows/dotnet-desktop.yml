@@ -30,8 +30,7 @@ jobs:
     - name: Wait
       run: sleep 5
 
-    - name: Start CoreServer.exe in the background
-      shell: cmd
+    - name: Start CoreServer.exe in the background and run tests
       run: |
-         start /B "echo git | .\Debug\CoreServer.exe -c -s" 
-         vstest.console.exe ./Tests/FluidTransferTests.dll
+          Start-Process .\Debug\CoreServer.exe -ArgumentList "-c -s" -NoNewWindow &
+          vstest.console.exe ./Tests/FluidTransferTests.dll
