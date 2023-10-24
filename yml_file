@@ -1,0 +1,98 @@
+name: Test Harrier 65x+ CI Workflow
+
+on:
+  push:
+    branches: [ "dev" ]
+  pull_request:
+    branches: [ "dev" ]
+
+  
+jobs:
+  build:
+
+    runs-on: windows-2022
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: setup Msbuild
+      uses: microsoft/setup-msbuild@v1.3.1
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1.2.0
+
+    - name: Setup VSTest Console
+      uses: darenm/Setup-VSTest@v1.2
+
+
+#Restore NuGet packages for CoreServer and build the Solution.
+
+    - name: Restore NuGet packages for CoreServer
+      run: nuget restore ./Core/CoreServer/CoreServer.sln
+
+    - name: Build the CoreServer solution
+      run: msbuild ./Core/CoreServer/CoreServer.sln /p:platform="Any CPU" /p:configuration="Release"
+      
+
+#Restore NuGet packages for CoreClient and build the Solution.
+
+    - name: Restore NuGet packages for CoreClient
+      run: nuget restore ./Core/CoreServer/CoreClient.sln
+
+    - name: Build the CoreClient solution
+      run: msbuild ./Core/CoreServer/CoreClient.sln /p:platform="Any CPU" /p:configuration="Release"
+
+
+#Restore NuGet packages for EchoNETServer and build the Solution.
+
+    - name: Restore NuGet packages for EchoNETServer
+      run: nuget restore ./EchoNET/EchoNETServer.sln
+
+    - name: Build the EchoNETServer solution
+      run: msbuild ./EchoNET/EchoNETServer.sln /p:platform="Any CPU" /p:configuration="Release"
+
+
+#Restore NuGet packages for EchoNETClient and build the Solution.
+    
+    - name: Restore NuGet packages for EchoNETClient
+      run: nuget restore ./EchoNET/EchoNETClient.sln
+
+    - name: Build the EchoNETClient solution
+      run: msbuild ./EchoNET/EchoNETClient.sln /p:platform="Any CPU" /p:configuration="Release"
+
+
+#Restore NuGet packages for EchoServer and build the Solution.
+    
+    - name: Restore NuGet packages for EchoServer
+      run: nuget restore ./Echo/EchoServer.sln
+
+    - name: Build the EchoServer solution
+      run: msbuild ./Echo/EchoServer.sln /p:platform="Any CPU" /p:configuration="Release"
+
+
+#Wait for process to complete
+
+    - name: Wait before starting test run
+      run: sleep 3
+      
+
+#Start CoreServer.exe in background and run the unit tests.
+    
+    - name: Start CoreServer.exe in the background and run tests
+      run: |
+          Start-Process .\Core\CoreServer\Server\CoreServer\bin\Release\CoreServer.exe -ArgumentList "-c -s" -NoNewWindow &
+          vstest.console.exe .\Pico\Medman\FluidTransferTests\bin\Release\net481\FluidTransferTests.dll /ResultsDirectory:.\Pico\Medman\FluidTransferTests\TestResults /Logger:"trx"
+
+
+#Download the Results
+
+    - name: Build files with Test Results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+          name: Build files and Test Results
+          path: |
+                .\Core\CoreServer\Server\CoreServer\bin
+                .\Echo\Server\EchoServer\bin\x64
+                .\Pico\Medman\FluidTransferTests\TestResults
+                
